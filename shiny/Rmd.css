@@ -1,0 +1,41 @@
+/* Whole document: */
+p{
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+li{
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+
+/* Headers */
+h1{
+  font-size: 36pt;
+}
+
+h2{
+  font-size: 20pt;
+}
+
+
+/*.`title toc-ignore project-name`, .`author project-author`, .`date project-date`{
+  font-family: Helvetica;
+  font-size: 24pt;
+}*/
+
+.page-header h1 {
+  font-family: Helvetica;
+  font-size: 24pt;
+}
+
+.page-header h4 {
+  font-family: Helvetica;
+  font-size: 10pt;
+}

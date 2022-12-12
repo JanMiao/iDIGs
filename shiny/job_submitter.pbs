@@ -1,0 +1,11 @@
+#!/bin/bash 
+#PBS -N job_name
+#PBS -l nodes=ubuntu195
+#PBS -q batch
+#PBS -e error
+#PBS -o output
+#PBS -V
+
+cd /disk195/zz/shinyApp/iPIGs_en
+Rscript gbc_job_submit.R path
+
