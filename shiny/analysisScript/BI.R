@@ -13,7 +13,7 @@ report_path<-"/disk195/zz/shinyApp/iPIGs_en"
 data_dir<-"/disk195/zz/shinyApp/iPIGs_en/data"
 plink<-"/disk191/miaoj/software/plink"
 plink_dir<-"/disk191/miaoj/software/"
-from_email<-"zzsjtu1988@163.com"
+from_email<-"xxxxx@163.com" # Please replace with your email address
 rdsData <- "/disk195/zz/shinyApp/iPIGs_en/data/metadata.rds"
 
 # breed label to breed full name
@@ -52,7 +52,7 @@ email <- envelope(
 smtp <- server(host = "smtp.163.com",
                port = 25,
                username = from_email,
-               password = "zhangzhe3056436")
+               password = "XXXXXX") # Please replace with your email password
 
 smtp(email, verbose = F)
 })
@@ -183,7 +183,7 @@ email <- envelope(
 smtp <- server(host = "smtp.163.com",
                port = 25,
                username = from_email,
-               password = "zhangzhe3056436")
+               password = "XXXXXX") # Please replace with your email password
 
 tryCatch(
   {
